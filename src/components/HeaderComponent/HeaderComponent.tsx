@@ -1,5 +1,5 @@
 import React from "react";
-import { Col } from "antd";
+import { Badge, Col } from "antd";
 import * as S from "./styled";
 import Search from "antd/es/input/Search";
 import {
@@ -35,7 +35,9 @@ const HeaderComponent = () => {
             </div>
           </S.WrapperAccountHeader>
           <div>
-            <ShoppingCartOutlined style={{ fontSize: 30, color: "#FFF" }} />
+            <Badge count={4} size="small">
+              <ShoppingCartOutlined style={{ fontSize: 30, color: "#FFF" }} />
+            </Badge>
             <S.WrapperTextSmall>Cart</S.WrapperTextSmall>
           </div>
         </Col>

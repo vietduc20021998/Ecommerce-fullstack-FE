@@ -20,9 +20,16 @@ const HomePage = () => {
     <S.HomePageContainer>
       <ProductType data={arr} />
       <SliderComponent arrImages={[slider1, slider2, slider3]} />
-      <div>
+      <S.WrapperProduct>
         <CardComponent />
-      </div>
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+        <CardComponent />
+      </S.WrapperProduct>
       <NavbarComponent />
     </S.HomePageContainer>
   );
