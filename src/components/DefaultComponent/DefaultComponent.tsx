@@ -8,11 +8,13 @@ interface IDefaultComponent extends PropsWithChildren {
 }
 
 const DefaultComponent = ({ isShowHeader, children }: IDefaultComponent) => {
-  return (
+  return isShowHeader ? (
     <div>
-      {isShowHeader && <HeaderComponent />}
+      <HeaderComponent />
       <S.Container>{children}</S.Container>
     </div>
+  ) : (
+    <div>{children}</div>
   );
 };
 

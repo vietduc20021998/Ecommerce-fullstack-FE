@@ -44,3 +44,9 @@ export const WrapperImage = styled.div`
     left: 0;
   }
 `;
+
+export const WrapperTextSell = styled.span`
+  color: rgb(120, 120, 120);
+  font-size: 15px;
+  line-height: 24px;
+`;

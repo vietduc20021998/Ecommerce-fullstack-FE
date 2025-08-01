@@ -25,7 +25,7 @@ const CardComponent = () => {
           <span>4.96</span>
           <StarFilled style={{ fontSize: "10px", color: "yellow" }} />
         </span>
-        <span> | Da ban 1000+</span>
+        <S.WrapperTextSell> | Da ban 1000+</S.WrapperTextSell>
       </S.WrapperReportText>
       <S.WrapperPriceText>
         {(19000000).toLocaleString()}VND

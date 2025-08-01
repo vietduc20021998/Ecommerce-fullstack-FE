@@ -32,4 +32,7 @@ export const WrapperAccountHeader = styled.div`
 export const WrapperTextSmall = styled.span`
   font-size: 12px;
   color: #fff;
+  span {
+    cursor: pointer;
+  }
 `;
